@@ -1,0 +1,55 @@
+.container {
+	max-width: 1626px;
+	padding: 0 30px;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+
+.site-container {
+	overflow: hidden;
+}
+
+.flex {
+	display: flex;
+}
+
+.btn-reset {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	padding: 0;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+	display: none;
+}
+
+.section-title {
+	font-family: SFProDisplay;
+	font-size: 64px;
+	line-height: 80px;
+	color: var(--first-link);
+	width: 676px;
+	font-weight: 700;
+
+}
+
+.section-title--center {
+	text-align: center;
+	max-width: none;
+}
+
+.btn {
+	font-family: 'SFProDisplay', sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 2.18182px;
+	font-weight: 800;
+	color: var(--white-color);
+	border-radius: 8px;
+	text-transform: uppercase;
+	padding: 33px 82px;
+}
